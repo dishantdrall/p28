@@ -1,5 +1,5 @@
 
-class hrow{
+class Throw{
     constructor(bodyA, pointB){
         var options = {
             bodyA: bodyA,
