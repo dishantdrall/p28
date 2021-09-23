@@ -33,7 +33,7 @@ function setup() {
   mango9=new Mango(940,220,35);
   mango10=new Mango(980,305,35);
 
-  attach=new hrow(stones.body,{x:100,y:465});
+  attach=new Throw(stones.body,{x:100,y:465});
 
   tree=createSprite(775,368);
   tree.addImage(treeimg);
