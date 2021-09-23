@@ -97,7 +97,7 @@ function detectCollision(lstones,lmango){
     && lmango.body.position.x- lstones.body.position.x < lmango.r + lstones.r
     && lstones.body.position.y -lmango.body.position.y < lmango.r + lstones.r
     && lmango.body.position.y - lstones.body.position.y < lmango.r + lstones.r){
-      Matter.Body.setStatic(lmangobody,false);
+      Matter.Body.setStatic(lmango.body,false);
     }
 
 }
